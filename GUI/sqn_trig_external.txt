@@ -1,0 +1,9 @@
+# Sequencer for external trigger
+# For RHIC the total number of beam clocks should be 128
+#
+0x20	#  FEMODE
+0xE0	#  PARST + FEMODE
+0x20	#  FEMODE
+0x1007C	#  delay 0x7C clocks
+0x20	#  FEMODE
+0x20000	# End of list
